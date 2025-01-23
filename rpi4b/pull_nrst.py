@@ -16,10 +16,10 @@ console_handler.setFormatter(console_formatter)
 logging.getLogger().addHandler(console_handler)
 
 # Pin definitions
-POWER_PINS = [17, 15, 27, 22]  # List of GPIO pins for power control
+POWER_PINS = [17, 18, 27, 22]  # List of GPIO pins for power control
 # Raspberry Pi 4B:
 # P0 = GPIO17 = Pin 11
-# P1 = GPIO15 = Pin 10
+# P1 = GPIO18 = Pin 12
 # P2 = GPIO27 = Pin 13
 # P3 = GPIO22 = Pin 15
 
