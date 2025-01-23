@@ -1,3 +1,5 @@
+# This is not complete, needs to be updated with packages and GPIO pinout
+
 import RPi.GPIO as GPIO
 import time
 import logging
