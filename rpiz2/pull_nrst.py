@@ -16,7 +16,7 @@ console_handler.setFormatter(console_formatter)
 logging.getLogger().addHandler(console_handler)
 
 # Pin definitions
-POWER_PIN = 18  # GPIO18 corresponds to Pin 12 on Raspberry Pi
+POWER_PIN = 26  # GPIO26 corresponds to Pin 37 on Raspberry Pi Zero 2W
 
 def setup_gpio():
     """Set up GPIO pins for power control on Raspberry Pi"""
