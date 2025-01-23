@@ -21,6 +21,7 @@ logging.getLogger().addHandler(console_handler)
 POWER_PINS = [17, 18, 27, 22]  # List of GPIO pins for power control
 # Raspberry Pi Zero 2W:
 # https://datasheets.raspberrypi.com/rpizero2/raspberry-pi-zero-2-w-reduced-schematics.pdf
+# https://files.waveshare.com/upload/a/af/Sense_HAT_%28C%29_Schematic.pdf
 # P0 = GPIO17 = Pin 11
 # P1 = GPIO18 = Pin 12
 # P2 = GPIO27 = Pin 13
